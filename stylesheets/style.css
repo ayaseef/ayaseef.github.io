@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+/**
+    General Styles
+*/
+ul {
+    list-style-type: none
+}
+body{
+    font-size: 12px;
+    background-color: lightblue;
+}
+
+
+.content{
+    margin: 45px 0;
+}
+
+.cover{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+aside section{
+    flex-grow: 1;
+    height: 45px;
+    padding: 35px;
+    margin: 0 10px;
+    text-align: center;
+    background: lightgrey;
+    border-bottom: dimgray;
+}
+
+/**
+    Headers
+*/
+h1 {
+    text-align: center;
+}
+h1 > span{
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+    border-bottom: 2px solid darkgray;
+    padding: 10px;
+}
+
+header, footer {
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    border: orange;
+}
+footer {
+    bottom: 0;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    display: inline-block;
+}
+
+footer img{
+    max-width: 25px;
+}
+
+
+
+ body {
+     background-image: url("../images/home_page.jpeg");
+     background-size: cover;
+ }
+
